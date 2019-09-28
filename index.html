@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="my-wrapper">
+    <div class="my-form">
+        <div class="flex-container">
+            <label class="tab active" id="tab-sign-in" title="Вкладка 1">Авторизация</label>
+            <label class="tab" id="tab-sign-up" title="Вкладка 2">Регистрация</label>
+        </div>
+
+        <form class="tab-form active">
+            <div class="input-box">
+                <label class="label-text">Введите E-mail:</label>
+                <input class="input" type="email" required>
+            </div>
+            <div>
+                <label class="label-text">Введите пароль:</label>
+                <input class="input" type="password" required>
+            </div>
+            <a href="#" class="button">Войти</a>
+            <ul class="social">
+                <li><a href="#"><div><i class="fa fa-facebook"></i></div></a></li>
+                <li><a href="#"><div><i class="fa fa-twitter"></i></div></a></li>
+                <li><a href="#"><div><i class="fa fa-instagram"></i></div></a></li>
+                <li><a href="#"><div><i class="fa fa-vk"></i></div></a></li>
+                <li><a href="#"><div><i class="fa fa-youtube"></i></div></a></li>
+            </ul>
+            <a href="#">Я забыл свой E-mail или пароль</a>
+        </form>
+
+            <form class="tab-form">
+            <div>
+                <label class="label-text">Введите E-mail адрес:</label>
+                <input class="input" type="email" required>
+            </div>
+            <div>
+                <label class="label-text">Введите свое имя:</label>
+                <input class="input" type="text" required>
+            </div>
+            <div>
+                <label class="label-text">Введите пароль:</label>
+                <input class="input" type="password" required>
+            </div>
+            <a href="#" class="button">Регистрация</a>
+            
+            <div class="recover">
+                <input type="checkbox" id="checkbox-sign-up">
+                <label for="checkbox-sign-up">Ознакомлен(-а) и принимаю <a href="#">условия регистрации</a></label>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+<script src="libs/jquery-3.4.1.min.js"></script>
+<!--<script src="https://kit.fontawesome.com/3ac900a47d.js"></script>-->
+<script src="js/script.js"></script>
+</body>
+</html>
